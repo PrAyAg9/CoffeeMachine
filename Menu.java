@@ -1,4 +1,4 @@
-public class Menu{
+class Menu{
     private MenuItem[] menuItems;
     private int itemcount;
 
@@ -8,15 +8,15 @@ public class Menu{
 
         String[] espressoIngredients = {"water","coffee"};
         int[] espressoAmounts = {50,18};
-        menuItems[itemcount++] = new MenuItem("espresso",1.5, espressoIngredients, espressoAmounts);
+        menuItems[itemcount++] = new MenuItem("espresso",100, espressoIngredients, espressoAmounts);
 
         String[] latteingredients = {"water", "milk","coffee"};
         int[] latteAmounts = {200,150,24};
-        menuItems[itemcount++] = new MenuItem("latte",2.5,latteingredients,latteAmounts);
+        menuItems[itemcount++] = new MenuItem("latte",250,latteingredients,latteAmounts);
 
         String[] cappucinoIngredients = {"water", "milk","coffee"};
         int[] cappucinoAmounts = {250,100,24};
-        menuItems[itemcount++] = new MenuItem("cappcino",3.0,cappucinoIngredients,cappucinoAmounts);
+        menuItems[itemcount++] = new MenuItem("cappcino",300,cappucinoIngredients,cappucinoAmounts);
     }
 
 //    Using Stringbuilder from here:- This method will simply display name of items from menu;
