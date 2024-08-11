@@ -4,7 +4,7 @@
 Team members: <br/> 
 
  * Prayag Thakur
- * 
+ * Uttam Kumar
  * 
  *
  * 
