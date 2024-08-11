@@ -1,4 +1,4 @@
-public class MoneyMachine {
+class MoneyMachine {
     private double profit;
 
     public MoneyMachine() {
@@ -6,29 +6,29 @@ public class MoneyMachine {
     }
 
     public void report() {
-        System.out.println("Money: $" + String.format("%.2f", profit));
+        System.out.println("Money: Rs." + String.format("%.2f", profit));
     }
 
     public boolean makePayment(double cost) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please insert coins.");
-        System.out.print("Quarters: ");
+        System.out.print("500Rs:- : ");
         int quarters = scanner.nextInt();
-        System.out.print("Dimes: ");
+        System.out.print("100Rs:- : ");
         int dimes = scanner.nextInt();
-        System.out.print("Nickles: ");
+        System.out.print("50Rs:- ");
         int nickles = scanner.nextInt();
-        System.out.print("Pennies: ");
+        System.out.print("10Rs:- ");
         int pennies = scanner.nextInt();
 
-        double total = quarters * 0.25 + dimes * 0.10 + nickles * 0.05 + pennies * 0.01;
+        double total = quarters * 500 + dimes * 100 + nickles * 50 + pennies * 10;
         if (total < cost) {
             System.out.println("Sorry that's not enough money. Money refunded.");
             return false;
         } else {
             if (total > cost) {
                 double change = total - cost;
-                System.out.println("Here is $" + String.format("%.2f", change) + " dollars in change.");
+                System.out.println("Here is Rs." + String.format("%.2f", change) + " Ruppess in change.");
             }
             profit += cost;
             return true;
