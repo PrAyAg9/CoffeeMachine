@@ -1,3 +1,5 @@
+import java.util.*;
+
 class MoneyMachine {
     private double profit;
 
@@ -11,10 +13,10 @@ class MoneyMachine {
 
     public boolean makePayment(double cost) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please insert coins.");
-        System.out.print("500Rs:- : ");
+        System.out.println("Please insert no. of Notes:-");
+        System.out.print("500Rs:- ");
         int quarters = scanner.nextInt();
-        System.out.print("100Rs:- : ");
+        System.out.print("100Rs:- ");
         int dimes = scanner.nextInt();
         System.out.print("50Rs:- ");
         int nickles = scanner.nextInt();
