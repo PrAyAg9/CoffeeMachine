@@ -1,4 +1,4 @@
-class Menu{
+public class Menu{
     private MenuItem[] menuItems;
     private int itemcount;
 
