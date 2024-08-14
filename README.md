@@ -1,6 +1,6 @@
 # :beginner: ***CoffeeMachine*** :beginner:
 
-## TM – GROUP PROJECT ##
+## TEAM – GROUP PROJECT ##
 Team members: <br/> 
 
  * Prayag Thakur
