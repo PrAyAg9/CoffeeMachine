@@ -5,9 +5,7 @@ Team members: <br/>
 
  * Prayag Thakur
  * Uttam Kumar
- * 
- *
- * 
+
 
 ## Theme: Coffee Machine Software ##
 
